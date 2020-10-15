@@ -15,13 +15,13 @@ KASIT (S. Hwang, J. Park, N. Kim, Y. Choi, I. So Kweon, Multispectral pedestrian
 <img src="https://github.com/hli1221/imagefusion-rfn-nest/blob/main/framework/framework.png" width="600">
 
 
-# Decoder architecture
+### Decoder architecture
 
 <img src="https://github.com/hli1221/imagefusion-rfn-nest/blob/main/framework/decoder.png" width="600">
 
 
 
-# Training RFN modules
+### Training RFN modules
 
 <img src="https://github.com/hli1221/imagefusion-rfn-nest/blob/main/framework/training-rfn.png" width="600">
 
