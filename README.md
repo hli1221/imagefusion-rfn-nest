@@ -1,4 +1,4 @@
-# NestFuse: An Infrared and Visible Image Fusion Architecture based on Nest Connection and Spatial/Channel Attention Models
+# RFN-Nest: An end-to-end residual fusion network for infrared and visible images
 
 The codes are coming soon.
 
