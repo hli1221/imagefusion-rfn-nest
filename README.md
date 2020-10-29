@@ -6,7 +6,7 @@ The codes are coming soon.
 Python 3.7  
 Pytorch >=0.4.1  
 
-The testing datasets are invluded in "images".
+The testing datasets are included in "images".
 
 ## Fusion framework
 
