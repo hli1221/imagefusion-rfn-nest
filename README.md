@@ -2,7 +2,6 @@
 
 [Information Fusion](https://doi.org/10.1016/j.inffus.2021.02.023)(IF:13.669)
 
-The codes are coming soon.
 
 ## Platform
 Python 3.7  
