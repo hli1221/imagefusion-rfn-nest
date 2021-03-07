@@ -10,6 +10,8 @@ Pytorch >=0.4.1
 
 The testing datasets are included in "images".
 
+The results iamges are included in "outputs".
+
 ## Fusion framework
 
 [MS-COCO 2014](http://images.cocodataset.org/zips/train2014.zip) (T.-Y. Lin, M. Maire, S. Belongie, J. Hays, P. Perona, D. Ramanan, P. Dollar, and C. L. Zitnick. Microsoft coco: Common objects in context. In ECCV, 2014. 3-5.) is utilized to train our auto-encoder network.
