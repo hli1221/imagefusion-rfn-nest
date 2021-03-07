@@ -38,7 +38,7 @@ The results iamges are included in "outputs".
 <img src="https://github.com/hli1221/imagefusion-rfn-nest/blob/main/framework/results-umbrella.png" width="600">
 
 
-### RFN for RGBT tracking - framework
+## RFN for RGBT tracking - framework
 
 <img src="https://github.com/hli1221/imagefusion-rfn-nest/blob/main/framework/tracking-framework.png" width="600">
 
