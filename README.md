@@ -2,7 +2,8 @@
 
 Information Fusion (IF:13.669), Available online 1 March 2021
 
-[paper](https://doi.org/10.1016/j.inffus.2021.02.023)
+[paper](https://doi.org/10.1016/j.inffus.2021.02.023)  
+[arXiv]
 
 
 ## Platform
