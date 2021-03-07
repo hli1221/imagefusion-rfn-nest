@@ -1,5 +1,7 @@
 # RFN-Nest: An end-to-end residual fusion network for infrared and visible images
 
+[Information Fusion](https://doi.org/10.1016/j.inffus.2021.02.023)(IF:13.669)
+
 The codes are coming soon.
 
 ## Platform
@@ -28,3 +30,16 @@ The testing datasets are included in "images".
 <img src="https://github.com/hli1221/imagefusion-rfn-nest/blob/main/framework/training-rfn.png" width="600">
 
 
+### Fusion results
+
+<img src="https://github.com/hli1221/imagefusion-rfn-nest/blob/main/framework/results-umbrella.png" width="600">
+
+
+### RFN for RGBT tracking - framework
+
+<img src="https://github.com/hli1221/imagefusion-rfn-nest/blob/main/framework/tracking-framework.png" width="600">
+
+
+### RFN for RGBT tracking - results
+
+<img src="https://github.com/hli1221/imagefusion-rfn-nest/blob/main/framework/results-tracking.png" width="600">
