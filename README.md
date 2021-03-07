@@ -1,6 +1,8 @@
 # RFN-Nest: An end-to-end residual fusion network for infrared and visible images
 
-[Information Fusion](https://doi.org/10.1016/j.inffus.2021.02.023)(IF:13.669)
+Information Fusion (IF:13.669), Available online 1 March 2021
+
+[paper](https://doi.org/10.1016/j.inffus.2021.02.023)
 
 
 ## Platform
@@ -44,3 +46,18 @@ The results iamges are included in "outputs".
 ### RFN for RGBT tracking - results
 
 <img src="https://github.com/hli1221/imagefusion-rfn-nest/blob/main/framework/results-tracking.png" width="600">
+
+
+If you have any question about this code, feel free to reach me(hui_li_jnu@163.com) 
+
+# Citation
+
+```
+@article{li2021rfn,
+  title={RFN-Nest: An end-to-end residual fusion network for infrared and visible images},
+  author={Li, Hui and Wu, Xiao-Jun and Kittler, Josef},
+  journal={Information Fusion},
+  year={2021},
+  publisher={Elsevier}
+}
+```
