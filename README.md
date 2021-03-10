@@ -1,6 +1,6 @@
 # RFN-Nest: An end-to-end residual fusion network for infrared and visible images
 
-[Hui Li](https://hli1221.github.io/), Xiao-Jun Wu, Josef Kittler  
+[Hui Li](https://hli1221.github.io/), Xiao-Jun Wu*, Josef Kittler  
 Information Fusion (IF:13.669), Available online 1 March 2021
 
 [paper](https://doi.org/10.1016/j.inffus.2021.02.023)  
