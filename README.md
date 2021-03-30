@@ -65,3 +65,9 @@ If you have any question about this code, feel free to reach me(hui_li_jnu@163.c
   publisher={Elsevier}
 }
 ```
+
+## A clerical error in our paper
+
+I am very sorry about this clerical error. 
+Actually, in Section 4.6, this part "With the nest connection, the decoder is able to preserve more image information conveyed by the multiscale deep features (𝑀𝐼, 𝐹 𝐹𝑀𝐼𝑑𝑐𝑡, 𝐹 𝐹𝑀𝐼𝑤) and generate more natural and clearer fused image (𝐸𝑁, 𝑆𝐷, 𝑉 𝐼𝐹)." should change to "With the nest connection, the decoder is able to preserve more image information conveyed by the multiscale deep features (𝑀𝐼, Nabf, MS-SSIM) and generate more natural and clearer fused image (𝐸𝑁, 𝑆𝐷, SCD)."
+
