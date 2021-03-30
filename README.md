@@ -61,6 +61,9 @@ If you have any question about this code, feel free to reach me(hui_li_jnu@163.c
   title={RFN-Nest: An end-to-end residual fusion network for infrared and visible images},
   author={Li, Hui and Wu, Xiao-Jun and Kittler, Josef},
   journal={Information Fusion},
+  volume={73},
+  pages={72--86},
+  month={March},
   year={2021},
   publisher={Elsevier}
 }
