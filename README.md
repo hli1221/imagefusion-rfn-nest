@@ -9,7 +9,7 @@ Information Fusion (IF:13.669), Volume: 73, Pages: 72-86, September 2021
 
 ## Platform
 Python 3.7  
-Pytorch >=0.4.1  
+Pytorch 1.5  
 
 The testing datasets are included in "images".
 
