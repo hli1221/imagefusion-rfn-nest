@@ -207,29 +207,29 @@ def train(original_imgs_path, img_flag, alpha, w1, w2):
 				fusion_model.cuda()
 				tbar.set_description("\nCheckpoint, trained model saved at", save_model_path)
 
-		# ssim loss
-		loss_data_ssim = Loss_ssim
-		loss_filename_path = temp_path_loss_w + "/Final_loss_ssim_epoch_" + str(
-			args.epochs) + "_alpha_" + str(alpha) + "_wir_" + str(w1) + "_wvi_" + str(w2) + ".mat"
-		scio.savemat(loss_filename_path, {'final_loss_ssim': loss_data_ssim})
-		loss_data_fea = Loss_feature
-		loss_filename_path = temp_path_loss_w + "/Final_loss_2_epoch_" + str(
-			args.epochs) + "_alpha_" + str(alpha) + "_wir_" + str(w1) + "_wvi_" + str(w2) + ".mat"
-		scio.savemat(loss_filename_path, {'final_loss_fea': loss_data_fea})
-		# SSIM loss
-		loss_data = Loss_all
-		loss_filename_path = temp_path_loss_w + "/Final_loss_all_epoch_" + str(
-			args.epochs) + "_alpha_" + str(alpha) + "_wir_" + str(w1) + "_wvi_" + str(w2) + ".mat"
-		scio.savemat(loss_filename_path, {'final_loss_all': loss_data})
-		# save model
-		fusion_model.eval()
-		fusion_model.cpu()
-		save_model_filename = "Final_epoch_" + str(args.epochs) + "_alpha_" + str(alpha) + "_wir_" + str(
-			w1) + "_wvi_" + str(w2) + ".model"
-		save_model_path = os.path.join(temp_path_model_w, save_model_filename)
-		torch.save(fusion_model.state_dict(), save_model_path)
+	# ssim loss
+	loss_data_ssim = Loss_ssim
+	loss_filename_path = temp_path_loss_w + "/Final_loss_ssim_epoch_" + str(
+		args.epochs) + "_alpha_" + str(alpha) + "_wir_" + str(w1) + "_wvi_" + str(w2) + ".mat"
+	scio.savemat(loss_filename_path, {'final_loss_ssim': loss_data_ssim})
+	loss_data_fea = Loss_feature
+	loss_filename_path = temp_path_loss_w + "/Final_loss_2_epoch_" + str(
+		args.epochs) + "_alpha_" + str(alpha) + "_wir_" + str(w1) + "_wvi_" + str(w2) + ".mat"
+	scio.savemat(loss_filename_path, {'final_loss_fea': loss_data_fea})
+	# SSIM loss
+	loss_data = Loss_all
+	loss_filename_path = temp_path_loss_w + "/Final_loss_all_epoch_" + str(
+		args.epochs) + "_alpha_" + str(alpha) + "_wir_" + str(w1) + "_wvi_" + str(w2) + ".mat"
+	scio.savemat(loss_filename_path, {'final_loss_all': loss_data})
+	# save model
+	fusion_model.eval()
+	fusion_model.cpu()
+	save_model_filename = "Final_epoch_" + str(args.epochs) + "_alpha_" + str(alpha) + "_wir_" + str(
+		w1) + "_wvi_" + str(w2) + ".model"
+	save_model_path = os.path.join(temp_path_model_w, save_model_filename)
+	torch.save(fusion_model.state_dict(), save_model_path)
 
-		print("\nDone, trained model saved at", save_model_path)
+	print("\nDone, trained model saved at", save_model_path)
 
 
 def check_paths(args):
